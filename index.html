@@ -37,9 +37,9 @@
     <main class="w-[80%] mx-auto mt-[30px]">
         <h2 class="text-[20px] font-[600] mb-[24px]">Available Jobs</h2>
         <div class="flex gap-[8px] mb-[16px]">
-            <button class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="all-filter-btn">All</button>
-            <button class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="interview-filter-btn">Interview</button>
-            <button class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="rejected-filter-btn">Rejected</button>
+            <button onclick="toggleStyle('all-filter-btn')" class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="all-filter-btn">All</button>
+            <button onclick="toggleStyle('interview-filter-btn')" class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="interview-filter-btn">Interview</button>
+            <button onclick="toggleStyle('rejected-filter-btn')" class="bg-white px-5 py-2 text-gray-500 hover:bg-blue-500 hover:text-white" id="rejected-filter-btn">Rejected</button>
         </div>
 
         <section id="allCards" class="space-y-4">
